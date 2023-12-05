@@ -1,26 +1,26 @@
 
 /*
 author:
-sithiraRoneth
- */
+ sithiraRoneth
+
+*/
 
 package lk.ijse;
 import jakarta.mail.*;
 import jakarta.mail.Session;
 import jakarta.mail.Authenticator;
-
 import jakarta.mail.Message;
 import jakarta.mail.MessagingException;
 import jakarta.mail.PasswordAuthentication;
 import jakarta.mail.internet.InternetAddress;
 import jakarta.mail.internet.MimeMessage;
 import java.util.Random;
-
 import java.util.Properties;
 import java.util.Scanner;
+
 // first you want to create app password in google account
 // after that use smtp tool web
-
+// use dependency that I use in pom fxml (jakarta.mail)
 public class Email {
     public static void main(String[] args) {
         email();
