@@ -1,3 +1,9 @@
+
+/*
+author:
+sithiraRoneth
+ */
+
 package lk.ijse;
 import jakarta.mail.*;
 import jakarta.mail.Session;
