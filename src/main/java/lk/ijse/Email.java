@@ -12,6 +12,8 @@ import java.util.Random;
 
 import java.util.Properties;
 import java.util.Scanner;
+// first you want to create app password in google account
+// after that use smtp tool web
 
 public class Email {
     public static void main(String[] args) {
